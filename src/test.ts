@@ -1,1 +1,5 @@
-console.log('test.ts');
+function a(a: number, b: number): number {
+  return a + b;
+}
+
+export default a;

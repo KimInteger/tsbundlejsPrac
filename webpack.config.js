@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/import.ts',
+  entry: '/src/import.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -14,5 +14,9 @@ module.exports = {
         exclude: /node_modules/,
       },
     ],
+  },
+  mode: 'development',
+  resolve: {
+    extensions: ['.ts', '.js'],
   },
 };

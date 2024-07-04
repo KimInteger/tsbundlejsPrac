@@ -1,11 +1,11 @@
 {
   "name": "webpacktoha",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:babel": "npx babel src --out-dir dist --extensions \".ts\"",
-    "build:webpack": "npx webpack --config webpack.config.js"
+    "build:webpack": "webpack"
   },
   "keywords": [],
   "author": "",
